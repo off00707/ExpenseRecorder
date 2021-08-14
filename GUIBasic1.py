@@ -6,7 +6,7 @@ from datetime import datetime
 # root window
 GUI = tk.Tk()
 GUI.geometry('500x600')
-GUI.title('โปรเเกรมบันทึกค่าใช้จ่าย by off')
+GUI.title('โปรเเกรมบันทึกค่าใช้จ่าย v.1.0 by off')
 
 
 #-----------manu---------------
@@ -22,6 +22,7 @@ filemenu.add_command(label='Export to googlesheet')
 
 #----------------help-----------------
 def About():
+    print('about menu')
     messagebox.showinfo('About','สวัสดีครับนี่คือโปรเเกรมบันทึกข้อมูล\nสนใจบริจากเราใหม? ขอ 1 BTC ก็พอเเล้ว\nBTC Addess: abc')
 
 helpmenu=Menu(menubar,tearoff=0)
